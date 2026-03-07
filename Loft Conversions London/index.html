@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0">
+<title>Prime Loft | Premium Loft Conversions London | Fixed Prices from £18,000</title>
+<meta name="description" content="London's premium loft conversion specialists. Fixed prices, dedicated project manager, 10-year structural warranty. Dormer, mansard, hip-to-gable and all conversion types. Free survey.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.primeloft.co.uk/">
+<meta property="og:title" content="Prime Loft | Premium Loft Conversions London">
+<meta property="og:description" content="Fixed prices, dedicated project manager, 10-year warranty. London's premium loft conversion specialists.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+  --rust:#C4531A; --rust-dark:#a83e0f; --rust-light:#e07a4a;
+  --ink:#1A1208; --warm-dark:#231a0e; --parchment:#FAF6EE;
+  --cream-mid:#F2EBE0; --stone:#8a7464; --stone-light:#b8a898;
+  --topbar-h:44px; --nav-h:76px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;background:var(--parchment);color:var(--ink);padding-top:calc(var(--topbar-h) + var(--nav-h));-webkit-font-smoothing:antialiased}
+
+/* TOPBAR */
+.topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:var(--ink);z-index:1100;overflow:hidden}
+.topbar-inner{max-width:1420px;margin:0 auto;padding:0 24px;height:100%;display:flex;align-items:center;justify-content:space-between}
+.topbar-left,.topbar-right{display:flex;align-items:center}
+.tb-item{display:flex;align-items:center;gap:8px;padding:0 18px;height:var(--topbar-h);font-size:12px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:rgba(255,255,255,0.75);text-decoration:none;border-right:1px solid rgba(255,255,255,0.08);transition:color 0.2s;white-space:nowrap}
+.tb-item:hover{color:var(--rust-light)}
+.tb-item:last-child{border-right:none}
+.topbar-right .tb-item{border-right:none;border-left:1px solid rgba(255,255,255,0.08)}
+.tb-phone{color:var(--rust-light)!important}
+.tb-cta{background:var(--rust);color:#fff!important;font-weight:700!important;letter-spacing:0.12em!important;border:none!important;padding:0 22px!important}
+.tb-cta:hover{background:var(--rust-dark)!important}
+.tb-stars{color:#00b67a;font-size:12px;letter-spacing:1px}
+
+/* MAIN NAV */
+#main-nav{position:fixed;top:var(--topbar-h);left:0;right:0;height:var(--nav-h);background:var(--parchment);border-bottom:1px solid rgba(26,18,8,0.1);z-index:1000;transition:box-shadow 0.3s}
+.nav-inner{max-width:1420px;margin:0 auto;padding:0 24px;height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:14px;text-decoration:none;flex-shrink:0}
+.logo-mark{width:60px;height:60px;background:var(--ink);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo-wordmark .prime{display:block;font-family:'Playfair Display',serif;font-size:27px;font-weight:700;color:var(--ink);line-height:1;letter-spacing:-0.01em}
+.logo-wordmark .sub{display:block;font-size:8.5px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;color:var(--rust);margin-top:4px}
+.nav-links{display:flex;align-items:center;list-style:none;gap:0;height:100%}
+.nav-links>li{position:relative;height:100%;display:flex;align-items:center}
+.nav-links>li>a{display:flex;align-items:center;gap:5px;padding:0 16px;height:100%;font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;transition:color 0.2s;white-space:nowrap}
+.nav-links>li>a:hover{color:var(--rust)}
+.nav-links>li>a .arrow{font-size:8px;transition:transform 0.2s;opacity:0.5}
+.nav-links>li:hover>a .arrow{transform:rotate(180deg)}
+.nav-cta{background:var(--rust)!important;color:#fff!important;padding:0 24px!important;margin-left:8px;height:44px!important;display:flex!important;align-items:center!important}
+.nav-cta:hover{background:var(--rust-dark)!important}
+.nav-links>li>.dropdown{display:none;position:absolute;top:100%;left:0;min-width:220px;background:var(--ink);border-top:2px solid var(--rust);z-index:2000;padding:8px 0}
+.nav-links>li:hover>.dropdown{display:block}
+.dropdown a{display:block;padding:10px 20px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.7);text-decoration:none;letter-spacing:0.04em;transition:background 0.15s,color 0.15s,padding-left 0.15s;border-bottom:1px solid rgba(255,255,255,0.05)}
+.dropdown a:hover{background:rgba(196,83,26,0.2);color:#fff;padding-left:26px}
+.has-mega{position:static!important}
+.mega-wrap{display:none;position:fixed;left:0;right:0;top:calc(var(--topbar-h) + var(--nav-h));background:var(--ink);border-top:2px solid var(--rust);z-index:2000}
+.has-mega:hover .mega-wrap{display:block}
+.mega-inner{max-width:1420px;margin:0 auto;padding:0 24px;display:flex}
+.mega-col{flex:1;padding:28px 20px;border-right:1px solid rgba(255,255,255,0.06)}
+.mega-col:last-child{border-right:none}
+.mega-col-head{display:block;font-size:9px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:var(--rust-light);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(196,83,26,0.3);text-decoration:none;transition:color 0.15s}
+.mega-col-head:hover{color:#fff}
+.mega-col a{display:block;padding:7px 0;font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);text-decoration:none;border-bottom:none;letter-spacing:0.02em;transition:color 0.15s,padding-left 0.15s}
+.mega-col a:hover{color:#fff;padding-left:8px;background:rgba(196,83,26,0.2)}
+.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;cursor:pointer;background:none;border:none;padding:8px;flex-shrink:0}
+.hamburger span{display:block;width:24px;height:2px;background:var(--ink);transition:transform 0.3s,opacity 0.3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;top:calc(var(--topbar-h) + var(--nav-h));left:0;right:0;bottom:0;background:var(--ink);z-index:999;overflow-y:auto}
+.mobile-menu.open{display:block}
+.mob-sec-head{padding:14px 20px;font-size:9px;font-weight:800;letter-spacing:0.24em;text-transform:uppercase;color:var(--rust-light);background:rgba(196,83,26,0.08);border-top:1px solid rgba(255,255,255,0.06)}
+.mobile-menu a{display:block;padding:11px 20px 11px 32px;font-size:13px;font-weight:500;color:rgba(255,255,255,0.68);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);transition:background 0.15s,color 0.15s}
+.mobile-menu a:hover{background:rgba(196,83,26,0.15);color:#fff}
+.mob-actions{padding:20px;display:flex;flex-direction:column;gap:10px}
+
+/* HERO — FIX: align-items flex-end so content never crops at top */
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.5s ease}
+.hero-slide.active{opacity:1;animation:kb 14s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.06)}}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(26,18,8,0.1) 0%,rgba(26,18,8,0.45) 40%,rgba(26,18,8,0.96) 100%);z-index:1}
+/* FIX hero-content: anchor to bottom, no top padding that cuts content */
+.hero-content{position:relative;z-index:2;max-width:1420px;margin:0 auto;padding:0 48px 72px;width:100%}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:9px;font-weight:800;letter-spacing:0.32em;text-transform:uppercase;color:var(--rust-light);margin-bottom:22px}
+.hero-eyebrow::before{content:'';display:block;width:36px;height:1.5px;background:var(--rust)}
+.hero-h1{font-family:'Playfair Display',serif;font-size:clamp(44px,6.5vw,88px);font-weight:700;color:#fff;line-height:1.0;letter-spacing:-0.025em;margin-bottom:24px;max-width:820px}
+.hero-h1 em{font-style:italic;color:var(--rust-light)}
+.hero-sub{font-size:clamp(14px,1.6vw,17px);font-weight:300;color:rgba(255,255,255,0.68);line-height:1.72;max-width:520px;margin-bottom:36px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px}
+.hero-stats{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,0.12);padding-top:36px}
+.hero-stat{display:flex;align-items:center;gap:16px;padding:0 36px 0 0;margin-right:36px;border-right:1px solid rgba(255,255,255,0.12)}
+.hero-stat:last-child{border-right:none;margin-right:0;padding-right:0}
+.hero-stat-icon{width:48px;height:48px;background:rgba(196,83,26,0.2);border:1.5px solid rgba(196,83,26,0.5);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.hero-stat-n{font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,38px);font-weight:700;color:#fff;line-height:1}
+.hero-stat-l{font-size:9px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-top:5px}
+
+/* TRUST BAR */
+.trust-bar{background:var(--ink);border-top:2px solid var(--rust);overflow-x:auto}
+.trust-bar-inner{max-width:1420px;margin:0 auto;display:flex;min-width:600px}
+.trust-item{display:flex;align-items:center;gap:10px;flex:1;padding:16px 20px;border-right:1px solid rgba(255,255,255,0.07);white-space:nowrap}
+.trust-item:last-child{border-right:none}
+.trust-item span{font-size:10.5px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.65)}
+
+/* COMMON */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:9px;font-weight:800;letter-spacing:0.28em;text-transform:uppercase;color:var(--rust);margin-bottom:14px}
+.eyebrow::before{content:'';display:block;width:28px;height:1.5px;background:var(--rust)}
+.eyebrow-light{color:var(--rust-light)!important}
+.eyebrow-light::before{background:var(--rust-light)!important}
+.sh{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,48px);font-weight:700;color:var(--ink);line-height:1.12;letter-spacing:-0.02em;margin-bottom:20px}
+.sh em{font-style:italic;color:var(--rust)}
+.sh-white{color:#fff}
+.sh-white em{color:var(--rust-light)}
+.btn-rust{display:inline-flex;align-items:center;gap:8px;background:var(--rust);color:#fff;padding:16px 36px;font-size:10px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;text-decoration:none;transition:background 0.2s,transform 0.2s}
+.btn-rust:hover{background:var(--rust-dark);transform:translateY(-1px)}
+.btn-outline{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--ink);padding:14px 32px;font-size:10px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;text-decoration:none;border:2px solid var(--ink);transition:background 0.2s,color 0.2s}
+.btn-outline:hover{background:var(--ink);color:#fff}
+
+/* TYPES GRID */
+.types-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--ink)}
+
+/* RESULTS GRID */
+.results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--ink)}
+
+/* PROCESS */
+.process-layout{display:grid;grid-template-columns:1fr 420px;gap:64px;align-items:start}
+
+/* WHY GRID — card style kept, updated heading/text in HTML */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.why-card{background:#fff;padding:30px 26px;border-top:3px solid var(--rust)}
+.why-card-icon{width:44px;height:44px;background:var(--cream-mid);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.why-card h4{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.why-card p{font-size:13px;line-height:1.74;color:#6a5c49}
+
+/* AREAS — FIX: both strip and town grid inside same max-width wrapper for alignment */
+.areas-outer{max-width:1420px;margin:0 auto}
+.areas-strip{display:flex;gap:3px;background:var(--ink);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.areas-strip::-webkit-scrollbar{display:none}
+.area-pill{flex:1;min-width:160px;background:var(--warm-dark);padding:22px 28px;text-decoration:none;transition:background 0.2s;border-bottom:3px solid transparent;text-align:center}
+.area-pill:hover{background:rgba(196,83,26,0.2);border-color:var(--rust)}
+.area-pill-name{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;color:#fff}
+.area-pill-sub{font-size:9px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--rust-light);margin-top:4px}
+.town-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:3px;background:var(--ink)}
+.town-card{background:#fff;padding:14px 16px;text-decoration:none;border-bottom:3px solid transparent;transition:all 0.25s;display:block}
+.town-card:hover{border-color:var(--rust);transform:translateY(-3px);box-shadow:0 6px 20px rgba(26,18,8,0.1)}
+.town-card-name{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;color:var(--ink)}
+.town-card-link{font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust);margin-top:4px}
+
+/* TESTIMONIALS */
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:rgba(255,255,255,0.04);margin-top:36px}
+
+/* CTA BAND */
+.cta-band{background:var(--warm-dark);padding:80px 48px;text-align:center}
+.cta-band-inner{max-width:700px;margin:0 auto}
+.cta-band-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+
+/* FOOTER */
+footer{background:var(--ink);padding:64px 48px 0}
+.footer-inner{max-width:1420px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.footer-brand p{font-size:13px;line-height:1.8;color:rgba(255,255,255,0.45);margin:16px 0}
+.footer-contact{display:flex;flex-direction:column;gap:8px}
+.footer-contact a{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:rgba(255,255,255,0.55);text-decoration:none;transition:color 0.2s}
+.footer-contact a:hover{color:var(--rust-light)}
+.footer-col h5{font-size:9px;font-weight:800;letter-spacing:0.22em;text-transform:uppercase;color:var(--rust-light);margin-bottom:16px}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.45);text-decoration:none;padding:5px 0;transition:color 0.2s}
+.footer-col a:hover{color:#fff}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;padding:20px 0;font-size:11px;color:rgba(255,255,255,0.28);flex-wrap:wrap;gap:12px}
+.footer-social{display:flex;gap:16px}
+.footer-social a{font-size:11px;font-weight:700;color:rgba(255,255,255,0.35);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s}
+.footer-social a:hover{color:var(--rust-light)}
+
+/* FLOAT BTNS */
+.float-cta{position:fixed;bottom:24px;right:24px;z-index:800;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.float-btn{display:flex;align-items:center;gap:8px;padding:0 18px;height:44px;font-size:10px;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s}
+.float-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.3)}
+.float-phone{background:var(--warm-dark);color:rgba(255,255,255,0.75)}
+.float-quote{background:var(--rust);color:#fff}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 0.6s ease,transform 0.6s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* RESPONSIVE */
+@media(max-width:1200px){.town-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:1100px){.process-layout{grid-template-columns:1fr}.types-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1024px){.footer-grid{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:900px){.town-grid{grid-template-columns:repeat(3,1fr)}.nav-links{display:none}.hamburger{display:flex}.results-grid{grid-template-columns:repeat(2,1fr)}.testi-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.hero-content{padding:0 20px 56px}.hero-stats{padding-top:24px}.hero-stat{padding:0 20px 0 0;margin-right:20px;gap:10px}.hero-stat-icon{width:36px;height:36px}.types-grid{grid-template-columns:1fr 1fr}.results-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr}.town-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr}.cta-band{padding:56px 20px}footer{padding:48px 20px 0}.topbar-left .tb-item:nth-child(2),.topbar-left .tb-item:nth-child(3){display:none}.topbar-right .tb-item:nth-child(1),.topbar-right .tb-item:nth-child(2){display:none}.cta-band-btns{flex-direction:column;align-items:stretch}.cta-band-btns a{text-align:center;justify-content:center}}
+@media(max-width:500px){:root{--topbar-h:40px;--nav-h:64px}.types-grid{grid-template-columns:1fr}.results-grid{grid-template-columns:1fr}.hero-btns{flex-direction:column}.hero-btns a{text-align:center;justify-content:center}.logo-wordmark .prime{font-size:20px}}
+@media(max-width:700px){.trust-bar-inner{min-width:500px}}
+@media(max-width:1000px){.abt-grid{grid-template-columns:1fr!important;gap:50px!important}.abt-accent{display:none!important}}
+</style>
+</head>
+<body>
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <a href="tel:02081234567" class="tb-item tb-phone">
+        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 012 1.22 2 2 0 014 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        0208 123 4567
+      </a>
+      <a href="mailto:info@primeloft.co.uk" class="tb-item">
+        <svg viewBox="0 0 24 24" width="14" height="14" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        info@primeloft.co.uk
+      </a>
+      <span class="tb-item"><span class="tb-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>&nbsp;5.0 &middot; Trustpilot</span>
+    </div>
+    <div class="topbar-right">
+      <a href="/pages/contact.html" class="tb-item">Client Portal</a>
+      <a href="/pages/get-a-quote.html" class="tb-item">Free Brochure</a>
+      <a href="/pages/get-a-quote.html" class="tb-item tb-cta">Enquire Now &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN NAV -->
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="/index.html" class="logo">
+      <div class="logo-mark">
+        <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+          <path d="M4 16L16 4L28 16V28H20V20H12V28H4V16Z" fill="#C4531A"/>
+          <path d="M4 16L16 4L28 16" stroke="#FAF6EE" stroke-width="1.5" fill="none"/>
+        </svg>
+      </div>
+      <div class="logo-wordmark">
+        <span class="prime">Prime Loft</span>
+        <span class="sub">Premium Loft Conversions &middot; London</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li>
+        <a href="/about/who-we-are.html">About <span class="arrow">&#9660;</span></a>
+        <div class="dropdown">
+          <a href="/about/who-we-are.html">Who Are We?</a>
+          <a href="/about/why-choose-us.html">Why Choose Us</a>
+          <a href="/about/how-we-work.html">How We Work</a>
+          <a href="/about/design-build-process.html">Design &amp; Build Process</a>
+          <a href="/about/testimonials.html">Testimonials</a>
+          <a href="/about/warranty.html">Warranty &amp; Insurance</a>
+          <a href="/about/careers.html">Work With Us</a>
+        </div>
+      </li>
+      <li class="has-mega">
+        <a href="/services/types-of-loft-conversions.html">Services <span class="arrow">&#9660;</span></a>
+        <div class="mega-wrap">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <a href="/services/types-of-loft-conversions.html" class="mega-col-head">Types of Loft Conversion</a>
+              <a href="/services/dormer-loft-conversion.html">Dormer Loft Conversion</a>
+              <a href="/services/mansard-loft-conversion.html">Mansard Loft Conversion</a>
+              <a href="/services/hip-to-gable.html">Hip to Gable Conversion</a>
+              <a href="/services/l-shaped-dormer.html">L-Shaped Dormer</a>
+              <a href="/services/velux-conversion.html">Velux / Roof Light</a>
+              <a href="/services/mansion-block.html">Mansion Block Conversions</a>
+              <a href="/services/new-build-loft.html">New Build Loft Conversions</a>
+              <a href="/services/trussed-roof.html">Trussed Roof Conversions</a>
+              <a href="/services/loft-pods.html">Loft Pods &amp; Extension Pods</a>
+              <a href="/services/roof-terrace.html">With Roof Terrace</a>
+            </div>
+            <div class="mega-col">
+              <a href="/planning/do-i-need-planning-permission.html" class="mega-col-head">Planning Permission</a>
+              <a href="/planning/loft-conversion-process.html">Loft Conversion Process</a>
+              <a href="/planning/do-i-need-planning-permission.html">Do I Need Planning Permission?</a>
+              <a href="/planning/complex-loft-conversions.html">Complex Loft Conversions</a>
+              <a href="/planning/party-wall-agreements.html">Party Wall Agreements</a>
+              <a href="/planning/permitted-development.html">Permitted Development Rights</a>
+              <a href="/planning/building-regulations.html">Building Regulations</a>
+            </div>
+            <div class="mega-col">
+              <a href="/services/loft-conversion-ideas.html" class="mega-col-head">More Services</a>
+              <a href="/services/pre-existing-plans.html">From Pre-existing Plans</a>
+              <a href="/services/pre-purchase-survey.html">Pre-Purchase Survey &amp; Quote</a>
+              <a href="/services/loft-conversion-ideas.html">Loft Conversion Ideas</a>
+              <a href="/services/kitchen-extensions.html">Kitchen Extensions</a>
+              <a href="/services/rear-extensions.html">Rear Extensions</a>
+              <a href="/services/basement-conversions.html">Basement Conversions</a>
+              <a href="/services/garden-rooms.html">Garden Rooms</a>
+            </div>
+            <div class="mega-col">
+              <a href="/pages/loft-conversion-cost.html" class="mega-col-head">Cost &amp; Quotes</a>
+              <a href="/pages/loft-conversion-cost.html">How Much Does It Cost?</a>
+              <a href="/pages/loft-conversion-cost-london.html">Cost in London</a>
+              <a href="/pages/get-a-quote.html">Get a Free Quote</a>
+              <a href="/about/warranty.html">Warranty &amp; Insurance</a>
+              <a href="/about/design-build-process.html">Design &amp; Build Process</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="has-mega">
+        <a href="/areas/index.html">Where We Work <span class="arrow">&#9660;</span></a>
+        <div class="mega-wrap">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <a href="/areas/north-london.html" class="mega-col-head">&#9656; North London</a>
+              <a href="/areas/north-london/islington-loft-conversion.html">Islington</a>
+              <a href="/areas/north-london/highgate-loft-conversion.html">Highgate</a>
+              <a href="/areas/north-london/muswell-hill-loft-conversion.html">Muswell Hill</a>
+              <a href="/areas/north-london/crouch-end-loft-conversion.html">Crouch End</a>
+              <a href="/areas/north-london/finchley-loft-conversion.html">Finchley</a>
+              <a href="/areas/north-london/barnet-loft-conversion.html">Barnet</a>
+              <a href="/areas/north-london/hornsey-loft-conversion.html">Hornsey</a>
+              <a href="/areas/north-london/wood-green-loft-conversion.html">Wood Green</a>
+            </div>
+            <div class="mega-col">
+              <a href="/areas/south-london.html" class="mega-col-head">&#9656; South London</a>
+              <a href="/areas/south-london/clapham-loft-conversion.html">Clapham</a>
+              <a href="/areas/south-london/balham-loft-conversion.html">Balham</a>
+              <a href="/areas/south-london/brixton-loft-conversion.html">Brixton</a>
+              <a href="/areas/south-london/tooting-loft-conversion.html">Tooting</a>
+              <a href="/areas/south-london/dulwich-loft-conversion.html">Dulwich</a>
+              <a href="/areas/south-london/battersea-loft-conversion.html">Battersea</a>
+              <a href="/areas/south-london/streatham-loft-conversion.html">Streatham</a>
+            </div>
+            <div class="mega-col">
+              <a href="/areas/east-london.html" class="mega-col-head">&#9656; East London</a>
+              <a href="/areas/east-london/hackney-loft-conversion.html">Hackney</a>
+              <a href="/areas/east-london/walthamstow-loft-conversion.html">Walthamstow</a>
+              <a href="/areas/east-london/stoke-newington-loft-conversion.html">Stoke Newington</a>
+              <a href="/areas/east-london/dalston-loft-conversion.html">Dalston</a>
+              <a href="/areas/east-london/bow-loft-conversion.html">Bow</a>
+              <a href="/areas/east-london/stratford-loft-conversion.html">Stratford</a>
+              <a href="/areas/east-london/wanstead-loft-conversion.html">Wanstead</a>
+            </div>
+            <div class="mega-col">
+              <a href="/areas/west-london.html" class="mega-col-head">&#9656; West London</a>
+              <a href="/areas/west-london/chiswick-loft-conversion.html">Chiswick</a>
+              <a href="/areas/west-london/ealing-loft-conversion.html">Ealing</a>
+              <a href="/areas/west-london/fulham-loft-conversion.html">Fulham</a>
+              <a href="/areas/west-london/richmond-loft-conversion.html">Richmond</a>
+              <a href="/areas/west-london/putney-loft-conversion.html">Putney</a>
+              <a href="/areas/west-london/twickenham-loft-conversion.html">Twickenham</a>
+            </div>
+            <div class="mega-col">
+              <a href="/areas/central-london.html" class="mega-col-head">&#9656; Central London</a>
+              <a href="/areas/central-london/notting-hill-loft-conversion.html">Notting Hill</a>
+              <a href="/areas/central-london/kensington-loft-conversion.html">Kensington</a>
+              <a href="/areas/central-london/chelsea-loft-conversion.html">Chelsea</a>
+              <a href="/areas/central-london/maida-vale-loft-conversion.html">Maida Vale</a>
+              <a href="/areas/central-london/knightsbridge-loft-conversion.html">Knightsbridge</a>
+              <a href="/areas/central-london/marylebone-loft-conversion.html">Marylebone</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="/pages/gallery.html">Gallery</a></li>
+      <li><a href="/index.html#blog">Blog</a></li>
+      <li><a href="/pages/get-a-quote.html" class="nav-cta">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mob-sec-head">Types of Loft Conversion</div>
+    <a href="/services/dormer-loft-conversion.html">Dormer Loft Conversion</a>
+    <a href="/services/mansard-loft-conversion.html">Mansard Loft Conversion</a>
+    <a href="/services/hip-to-gable.html">Hip to Gable Conversion</a>
+    <a href="/services/l-shaped-dormer.html">L-Shaped Dormer</a>
+    <a href="/services/velux-conversion.html">Velux / Roof Light</a>
+    <a href="/services/mansion-block.html">Mansion Block</a>
+    <a href="/services/trussed-roof.html">Trussed Roof</a>
+    <a href="/services/roof-terrace.html">With Roof Terrace</a>
+    <div class="mob-sec-head">Planning &amp; Process</div>
+    <a href="/planning/loft-conversion-process.html">Loft Conversion Process</a>
+    <a href="/planning/do-i-need-planning-permission.html">Planning Permission Guide</a>
+    <a href="/planning/permitted-development.html">Permitted Development</a>
+    <a href="/planning/party-wall-agreements.html">Party Wall Agreements</a>
+    <a href="/planning/building-regulations.html">Building Regulations</a>
+    <div class="mob-sec-head">More Services</div>
+    <a href="/services/kitchen-extensions.html">Kitchen Extensions</a>
+    <a href="/services/rear-extensions.html">Rear Extensions</a>
+    <a href="/services/basement-conversions.html">Basement Conversions</a>
+    <a href="/services/garden-rooms.html">Garden Rooms</a>
+    <div class="mob-sec-head">Cost &amp; Quotes</div>
+    <a href="/pages/loft-conversion-cost.html">How Much Does It Cost?</a>
+    <a href="/pages/get-a-quote.html">Get a Free Quote</a>
+    <div class="mob-sec-head">Areas</div>
+    <a href="/areas/north-london.html">North London</a>
+    <a href="/areas/south-london.html">South London</a>
+    <a href="/areas/east-london.html">East London</a>
+    <a href="/areas/west-london.html">West London</a>
+    <a href="/areas/central-london.html">Central London</a>
+    <div class="mob-sec-head">About</div>
+    <a href="/about/who-we-are.html">Who Are We?</a>
+    <a href="/about/why-choose-us.html">Why Choose Us</a>
+    <a href="/about/testimonials.html">Testimonials</a>
+    <div class="mob-actions">
+      <a href="/pages/get-a-quote.html" class="btn-rust" style="text-align:center;justify-content:center">Book Free Survey &rarr;</a>
+      <a href="tel:02081234567" style="display:block;text-align:center;padding:14px;border:2px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.7);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none">&#9742; 0208 123 4567</a>
+    </div>
+  </div>
+</nav>
+<!-- HERO — align-items:flex-end ensures content anchors to bottom, nothing cropped -->
+<section class="hero">
+  <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1800&q=85')"></div>
+  <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1800&q=85')"></div>
+  <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1800&q=85')"></div>
+  <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1800&q=85')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">London&rsquo;s Premier Loft Conversion Specialists</div>
+    <h1 class="hero-h1">Transform Your<br><em>Unused Space</em><br>Into Something<br>Extraordinary</h1>
+    <p class="hero-sub">Bespoke, architecturally considered loft conversions across London. Fixed prices. No surprises. Exceptional results — guaranteed.</p>
+    <div class="hero-btns">
+      <a href="/pages/get-a-quote.html" class="btn-rust" style="font-size:11px;padding:18px 40px">Get Your Free Quote &rarr;</a>
+      <a href="/pages/gallery.html" style="background:transparent;color:rgba(255,255,255,0.8);padding:18px 36px;font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;border:2px solid rgba(255,255,255,0.3);display:inline-flex;align-items:center;gap:10px">
+        <svg viewBox="0 0 24 24" width="14" height="14" stroke="rgba(255,255,255,0.7)" fill="none" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        View Our Work
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="hero-stat-text">
+          <div class="hero-stat-n">500+</div>
+          <div class="hero-stat-l">Conversions Completed</div>
+        </div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="hero-stat-text">
+          <div class="hero-stat-n">15+</div>
+          <div class="hero-stat-l">Years Experience</div>
+        </div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="hero-stat-text">
+          <div class="hero-stat-n">5.0&#9733;</div>
+          <div class="hero-stat-l">Trustpilot Rating</div>
+        </div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="hero-stat-text">
+          <div class="hero-stat-n">10yr</div>
+          <div class="hero-stat-l">Structural Warranty</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><svg viewBox="0 0 24 24" width="15" height="15" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>5-Star Trustpilot Rating</span></div>
+    <div class="trust-item"><svg viewBox="0 0 24 24" width="15" height="15" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg><span>Fixed-Price Contracts</span></div>
+    <div class="trust-item"><svg viewBox="0 0 24 24" width="15" height="15" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>10-Year Structural Warranty</span></div>
+    <div class="trust-item"><svg viewBox="0 0 24 24" width="15" height="15" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Dedicated Project Manager</span></div>
+    <div class="trust-item"><svg viewBox="0 0 24 24" width="15" height="15" stroke="var(--rust-light)" fill="none" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg><span>500+ Homes Transformed</span></div>
+  </div>
+</div>
+
+<!-- ABOUT PRIME LOFT -->
+<section style="background:var(--parchment);padding:80px 48px">
+  <div style="max-width:1420px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center" class="abt-grid">
+    <div style="position:relative" class="reveal">
+      <div style="position:absolute;top:30px;left:-20px;background:var(--rust);color:#fff;padding:22px 20px;text-align:center;box-shadow:0 6px 28px rgba(196,83,26,0.4);z-index:2">
+        <span style="font-family:'Playfair Display',serif;font-size:44px;font-weight:700;line-height:1;display:block">15+</span>
+        <span style="font-size:9px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;display:block;margin-top:5px;opacity:0.85">Years of<br>Excellence</span>
+      </div>
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=85" alt="Premium loft conversion interior by Prime Loft London" style="width:100%;height:560px;object-fit:cover;display:block">
+      <img src="https://images.unsplash.com/photo-1560185008-b033106af5c3?w=400&q=80" alt="En-suite bathroom loft detail" class="abt-accent" style="position:absolute;bottom:-30px;right:-30px;width:200px;height:200px;object-fit:cover;border:6px solid var(--parchment);box-shadow:0 10px 40px rgba(0,0,0,0.18)">
+    </div>
+    <div class="reveal" style="transition-delay:0.15s;padding-bottom:30px">
+      <div class="eyebrow">About Prime Loft</div>
+      <h2 style="font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,46px);font-weight:700;color:var(--ink);line-height:1.12;letter-spacing:-0.02em;margin-bottom:20px">London&rsquo;s Most Trusted<br><em style="font-style:italic;color:var(--rust)">Loft Conversion</em> Specialists</h2>
+      <p style="font-size:15px;line-height:1.78;color:#6a5c49;margin-bottom:14px">Prime Loft is a specialist loft conversion company delivering premium-quality transformations across London. Part of the Prime Construction Group, we combine architectural expertise with precision craftsmanship to create spaces that genuinely add lasting value to your home.</p>
+      <p style="font-size:15px;line-height:1.78;color:#6a5c49;margin-bottom:0">We manage every aspect of your project in-house — from initial survey and design through to building regulations approval and final handover — with a single, transparent fixed price.</p>
+      <div style="margin:32px 0;display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;align-items:flex-start;gap:14px;font-size:14.5px;font-weight:500;color:var(--ink)"><div style="width:24px;height:24px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:2px"><svg viewBox="0 0 14 14" width="11" height="11"><polyline points="2 7 5.5 10.5 12 3.5" stroke="#fff" fill="none" stroke-width="2.5"/></svg></div>Free no-obligation survey &amp; fully itemised quotation</div>
+        <div style="display:flex;align-items:flex-start;gap:14px;font-size:14.5px;font-weight:500;color:var(--ink)"><div style="width:24px;height:24px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:2px"><svg viewBox="0 0 14 14" width="11" height="11"><polyline points="2 7 5.5 10.5 12 3.5" stroke="#fff" fill="none" stroke-width="2.5"/></svg></div>All planning, design &amp; structural engineering included</div>
+        <div style="display:flex;align-items:flex-start;gap:14px;font-size:14.5px;font-weight:500;color:var(--ink)"><div style="width:24px;height:24px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:2px"><svg viewBox="0 0 14 14" width="11" height="11"><polyline points="2 7 5.5 10.5 12 3.5" stroke="#fff" fill="none" stroke-width="2.5"/></svg></div>Fixed price — absolutely no hidden extras, ever</div>
+        <div style="display:flex;align-items:flex-start;gap:14px;font-size:14.5px;font-weight:500;color:var(--ink)"><div style="width:24px;height:24px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:2px"><svg viewBox="0 0 14 14" width="11" height="11"><polyline points="2 7 5.5 10.5 12 3.5" stroke="#fff" fill="none" stroke-width="2.5"/></svg></div>10-year structural warranty on every single project</div>
+        <div style="display:flex;align-items:flex-start;gap:14px;font-size:14.5px;font-weight:500;color:var(--ink)"><div style="width:24px;height:24px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:2px"><svg viewBox="0 0 14 14" width="11" height="11"><polyline points="2 7 5.5 10.5 12 3.5" stroke="#fff" fill="none" stroke-width="2.5"/></svg></div>One dedicated project manager from start to finish</div>
+      </div>
+      <a href="/about/who-we-are.html" class="btn-rust">Learn More About Us</a>
+    </div>
+  </div>
+</section>
+<!-- CONVERSION TYPES -->
+<section style="background:var(--parchment);padding:80px 0 0">
+  <div style="max-width:1420px;margin:0 auto;padding:0 48px 48px" class="reveal">
+    <div class="eyebrow">What We Build</div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:32px">
+      <h2 class="sh" style="margin-bottom:0">Every Type of <em>Loft Conversion</em></h2>
+      <a href="/services/types-of-loft-conversions.html" style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;color:var(--rust);text-decoration:none;white-space:nowrap">View All Types →</a>
+    </div>
+  </div>
+  <div class="types-grid">
+    <a href="/services/dormer-loft-conversion.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=700&q=80" alt="Dormer loft conversion London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">Most Popular</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">Dormer Conversion</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Full-height rooms, maximum floor space. The most versatile London conversion.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+    <a href="/services/mansard-loft-conversion.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=700&q=80" alt="Mansard loft conversion London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">Period Homes</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">Mansard Conversion</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Near-vertical walls, flat roof. The signature of London's finest period terraces.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+    <a href="/services/hip-to-gable.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=700&q=80" alt="Hip to Gable loft conversion London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">Semi-Detached</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">Hip to Gable Conversion</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Squares off the sloping hip end — the natural choice for Edwardian semis.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+    <a href="/services/l-shaped-dormer.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=700&q=80" alt="L-Shaped Dormer loft conversion London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">Two Rooms</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">L-Shaped Dormer</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Two bedrooms and a bathroom from one project. The Victorian terrace transformation.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+    <a href="/services/velux-conversion.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=700&q=80" alt="Velux loft conversion London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">Best Value</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">Velux Conversion</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Flush roof windows, no roofline change. From £18,000 — maximum value, minimum cost.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+    <a href="/services/types-of-loft-conversions.html" style="background:#fff;overflow:hidden;display:block;text-decoration:none;position:relative;transition:transform 0.3s,box-shadow 0.3s" onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(26,18,8,0.14)'" onmouseleave="this.style.transform='';this.style.boxShadow=''">
+      <div style="overflow:hidden;position:relative"><img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=700&q=80" alt="All loft conversion types London" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block;transition:transform 0.5s" onmouseenter="this.style.transform='scale(1.06)'" onmouseleave="this.style.transform=''"><div style="position:absolute;top:12px;left:12px;background:var(--rust);color:#fff;font-size:8px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:5px 10px">View All</div></div>
+      <div style="padding:22px 20px 24px"><h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:8px">All Conversion Types</h3><p style="font-size:13px;line-height:1.7;color:#6a5c49;margin-bottom:14px">Mansion blocks, trussed roofs, roof terraces, new builds — we do them all.</p><span style="font-size:9px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust)">Learn More →</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- RECENT WORK -->
+<section style="background:var(--warm-dark);padding:80px 0 0">
+  <div style="max-width:1420px;margin:0 auto;padding:0 48px 48px" class="reveal">
+    <div class="eyebrow eyebrow-light">Our Work</div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:32px">
+      <h2 class="sh sh-white" style="margin-bottom:0">Recent <em>Transformations</em></h2>
+      <a href="/pages/gallery.html" style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;color:var(--rust-light);text-decoration:none;white-space:nowrap">View Full Gallery →</a>
+    </div>
+  </div>
+  <div class="results-grid">
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80" alt="Master Bedroom Suite — Islington" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">Master Bedroom Suite</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Islington, N1</div></div></div>
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80" alt="Dormer Bedroom — Clapham" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">Dormer Bedroom</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Clapham, SW4</div></div></div>
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80" alt="Velux Study — Chiswick" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">Velux Study</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Chiswick, W4</div></div></div>
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80" alt="En-Suite Bathroom — Hackney" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">En-Suite Bathroom</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Hackney, E8</div></div></div>
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="L-Shaped Dormer — Balham" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">L-Shaped Dormer</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Balham, SW12</div></div></div>
+    <div style="overflow:hidden;position:relative;background:var(--ink)" class="reveal"><img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=800&q=80" alt="Home Office — Richmond" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;transition:transform 0.5s;opacity:0.85" onmouseenter="this.style.transform='scale(1.04)';this.style.opacity='1'" onmouseleave="this.style.transform='';this.style.opacity='0.85'"><div style="position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(26,18,8,0.92),transparent)"><div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff">Home Office</div><div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light);margin-top:3px">Richmond, TW9</div></div></div>
+  </div>
+</section>
+<!-- PROCESS + WHY US — heading kept as "How We Deliver Your Dream Loft" as requested -->
+<section style="background:var(--parchment);padding:80px 48px">
+  <div style="max-width:1420px;margin:0 auto">
+    <div class="process-layout">
+      <div>
+        <div class="reveal">
+          <div class="eyebrow">Our Process</div>
+          <h2 class="sh">How We Deliver Your <em>Dream Loft</em></h2>
+          <p style="font-size:16px;line-height:1.8;color:#5a4e3e;margin-bottom:16px">A transparent, fully managed process from your very first enquiry right through to final handover — you're always in the picture, always in control.</p>
+        </div>
+        <div style="margin-top:28px;display:flex;flex-direction:column;gap:3px">
+          <div style="display:flex;align-items:stretch;gap:0" class="reveal"><div style="background:var(--rust);width:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:22px 8px"><div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1">01</div></div><div style="background:#fff;flex:1;padding:22px 28px"><h4 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:7px">Free Survey</h4><p style="font-size:13.5px;line-height:1.76;color:#6a5c49">An experienced surveyor visits your home — evenings and weekends available. We assess your roof, measure the space, check planning constraints, and identify the best conversion option for your property.</p></div></div>
+          <div style="display:flex;align-items:stretch;gap:0" class="reveal"><div style="background:var(--rust);width:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:22px 8px"><div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1">02</div></div><div style="background:#fff;flex:1;padding:22px 28px"><h4 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:7px">Fixed-Price Quote</h4><p style="font-size:13.5px;line-height:1.76;color:#6a5c49">Within days you receive a fully itemised fixed-price quotation. No ballpark figures — the exact price you'll pay, including architecture, structural engineering, all planning applications, full build, and 10-year warranty.</p></div></div>
+          <div style="display:flex;align-items:stretch;gap:0" class="reveal"><div style="background:var(--rust);width:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:22px 8px"><div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1">03</div></div><div style="background:#fff;flex:1;padding:22px 28px"><h4 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:7px">Design &amp; Approvals</h4><p style="font-size:13.5px;line-height:1.76;color:#6a5c49">Our architects draw up your plans. We manage all planning and Building Regulations applications on your behalf. Your dedicated project manager is assigned and coordinates every stage.</p></div></div>
+          <div style="display:flex;align-items:stretch;gap:0" class="reveal"><div style="background:var(--rust);width:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:22px 8px"><div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1">04</div></div><div style="background:#fff;flex:1;padding:22px 28px"><h4 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:7px">The Build</h4><p style="font-size:13.5px;line-height:1.76;color:#6a5c49">Our specialist team starts on site. Most loft conversions take 6–10 weeks. Daily site visits from your project manager. You're always kept in the picture.</p></div></div>
+          <div style="display:flex;align-items:stretch;gap:0" class="reveal"><div style="background:var(--rust);width:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:22px 8px"><div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1">05</div></div><div style="background:#fff;flex:1;padding:22px 28px"><h4 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:7px">Handover</h4><p style="font-size:13.5px;line-height:1.76;color:#6a5c49">Full snagging inspection with you before we leave. Building Regulations Completion Certificate and 10-year structural warranty issued on handover day.</p></div></div>
+        </div>
+        <div style="margin-top:28px" class="reveal"><a href="/planning/loft-conversion-process.html" class="btn-outline">Full Process Guide →</a></div>
+      </div>
+      <div class="reveal">
+        <div style="background:var(--ink);padding:36px 32px">
+          <div class="eyebrow eyebrow-light">Ready to Start?</div>
+          <h3 style="font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:#fff;line-height:1.22;margin-bottom:14px">Book Your Free Survey &amp; <em style="font-style:italic;color:var(--rust-light)">Fixed-Price Quote</em></h3>
+          <p style="font-size:13.5px;color:rgba(255,255,255,0.55);line-height:1.72;margin-bottom:24px">No obligation. No pressure. A clear, honest picture of what's possible in your home — and exactly what it will cost.</p>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <a href="/pages/get-a-quote.html" class="btn-rust" style="text-align:center;justify-content:center;display:flex">Book Free Survey</a>
+            <a href="tel:02081234567" style="display:flex;align-items:center;justify-content:center;gap:8px;color:rgba(255,255,255,0.5);font-size:12px;font-weight:700;letter-spacing:0.12em;text-decoration:none;padding:12px;border:1px solid rgba(255,255,255,0.12);transition:border-color 0.2s" onmouseenter="this.style.borderColor='var(--rust)'" onmouseleave="this.style.borderColor='rgba(255,255,255,0.12)'">
+              <svg viewBox="0 0 24 24" width="13" height="13" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81"/></svg>
+              0208 123 4567
+            </a>
+          </div>
+          <div style="margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.08)">
+            <div style="font-size:9px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:var(--stone-light);margin-bottom:14px">Our Guarantees</div>
+            <div style="display:flex;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.06)"><div style="width:18px;height:18px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px"><svg viewBox="0 0 24 24" width="9" height="9" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:12.5px;font-weight:500;color:rgba(255,255,255,0.65)">Fixed price — not a penny more</span></div>
+            <div style="display:flex;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.06)"><div style="width:18px;height:18px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px"><svg viewBox="0 0 24 24" width="9" height="9" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:12.5px;font-weight:500;color:rgba(255,255,255,0.65)">10-year structural warranty</span></div>
+            <div style="display:flex;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.06)"><div style="width:18px;height:18px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px"><svg viewBox="0 0 24 24" width="9" height="9" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:12.5px;font-weight:500;color:rgba(255,255,255,0.65)">In-house architects &amp; engineers</span></div>
+            <div style="display:flex;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.06)"><div style="width:18px;height:18px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px"><svg viewBox="0 0 24 24" width="9" height="9" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:12.5px;font-weight:500;color:rgba(255,255,255,0.65)">Dedicated project manager</span></div>
+            <div style="display:flex;gap:10px;padding:7px 0"><div style="width:18px;height:18px;background:var(--rust);flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px"><svg viewBox="0 0 24 24" width="9" height="9" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:12.5px;font-weight:500;color:rgba(255,255,255,0.65)">Building Regs &amp; planning managed</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US — FIX: heading "The Prime Difference", updated subtext, same card format -->
+<section style="background:var(--cream-mid);padding:80px 48px">
+  <div style="max-width:1420px;margin:0 auto">
+    <div class="reveal" style="text-align:center;max-width:660px;margin:0 auto 0">
+      <div class="eyebrow" style="justify-content:center">Why Prime Loft</div>
+      <h2 class="sh" style="text-align:center">The Prime <em>Difference</em></h2>
+      <p style="font-size:16px;line-height:1.8;color:#5a4e3e;margin-bottom:16px">We're not the cheapest option in London — we're the best value. Here's exactly why hundreds of homeowners choose Prime Loft.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <h4>Fixed Price. Guaranteed.</h4>
+        <p>The price we quote is the price you pay — written into your contract. No variation orders mid-build, no extras at handover. This commitment is absolute, not aspirational.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+        <h4>Your Dedicated Project Manager</h4>
+        <p>Every Prime Loft client has a single named project manager from survey to handover. On site daily. Available by phone throughout. You are never left wondering what is happening.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></div>
+        <h4>In-House Architecture &amp; Engineering</h4>
+        <p>We do not outsource design or structural engineering. Our in-house architects and engineers produce every drawing and calculation — ensuring design quality and structural integrity from the outset.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h4>10-Year Structural Warranty</h4>
+        <p>Every Prime Loft conversion comes with a fully backed 10-year structural warranty — the same protection as a new build home. Your investment is protected long after we leave site.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <h4>On Time, Every Time</h4>
+        <p>We provide a full week-by-week construction programme before work begins. Completion dates are commitments, not estimates — and our track record across 500+ London projects demonstrates this.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-icon"><svg viewBox="0 0 24 24" width="22" height="22" stroke="var(--rust)" fill="none" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <h4>5.0 Trustpilot Rating</h4>
+        <p>Hundreds of verified five-star reviews from homeowners across London. The best evidence of quality is what our clients say after the job is done — not what we say before we start.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- AREAS — FIX: heading + strip + town grid all inside same max-width:1420px wrapper -->
+<section style="background:var(--ink);padding:80px 0">
+  <div style="max-width:1420px;margin:0 auto;padding:0 48px 32px;text-align:center" class="reveal">
+    <div class="eyebrow eyebrow-light" style="justify-content:center">Where We Work</div>
+    <div style="position:relative;display:flex;align-items:center;justify-content:center">
+      <h2 class="sh sh-white" style="margin-bottom:0;text-align:center">Loft Conversions Across <em>All of London</em></h2>
+      <a href="/areas/index.html" style="font-size:10px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;color:var(--rust-light);text-decoration:none;white-space:nowrap;position:absolute;right:0">All Areas →</a>
+    </div>
+  </div>
+  <!-- Strip and grid both constrained to max-width:1420px for central alignment -->
+  <div style="max-width:1420px;margin:0 auto">
+    <div class="areas-strip reveal">
+      <a href="/areas/north-london.html" class="area-pill">
+        <div class="area-pill-name">North London</div>
+        <div class="area-pill-sub">Islington · Barnet · Haringey</div>
+      </a>
+      <a href="/areas/south-london.html" class="area-pill">
+        <div class="area-pill-name">South London</div>
+        <div class="area-pill-sub">Clapham · Dulwich · Brixton</div>
+      </a>
+      <a href="/areas/east-london.html" class="area-pill">
+        <div class="area-pill-name">East London</div>
+        <div class="area-pill-sub">Hackney · Walthamstow · Bow</div>
+      </a>
+      <a href="/areas/west-london.html" class="area-pill">
+        <div class="area-pill-name">West London</div>
+        <div class="area-pill-sub">Chiswick · Richmond · Ealing</div>
+      </a>
+      <a href="/areas/central-london.html" class="area-pill">
+        <div class="area-pill-name">Central London</div>
+        <div class="area-pill-sub">Chelsea · Kensington · Notting Hill</div>
+      </a>
+    </div>
+    <div class="town-grid reveal" style="margin-top:3px">
+      <a href="/areas/north-london/islington-loft-conversion.html" class="town-card"><div class="town-card-name">Islington</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/north-london/highgate-loft-conversion.html" class="town-card"><div class="town-card-name">Highgate</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/south-london/clapham-loft-conversion.html" class="town-card"><div class="town-card-name">Clapham</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/south-london/brixton-loft-conversion.html" class="town-card"><div class="town-card-name">Brixton</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/east-london/hackney-loft-conversion.html" class="town-card"><div class="town-card-name">Hackney</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/east-london/walthamstow-loft-conversion.html" class="town-card"><div class="town-card-name">Walthamstow</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/west-london/chiswick-loft-conversion.html" class="town-card"><div class="town-card-name">Chiswick</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/west-london/richmond-loft-conversion.html" class="town-card"><div class="town-card-name">Richmond</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/central-london/notting-hill-loft-conversion.html" class="town-card"><div class="town-card-name">Notting Hill</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/central-london/chelsea-loft-conversion.html" class="town-card"><div class="town-card-name">Chelsea</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/central-london/kensington-loft-conversion.html" class="town-card"><div class="town-card-name">Kensington</div><div class="town-card-link">Loft Conversions</div></a>
+      <a href="/areas/north-london/muswell-hill-loft-conversion.html" class="town-card"><div class="town-card-name">Muswell Hill</div><div class="town-card-link">Loft Conversions</div></a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section style="background:var(--warm-dark);padding:80px 48px">
+  <div style="max-width:1420px;margin:0 auto">
+    <div class="reveal" style="text-align:center;max-width:620px;margin:0 auto 0">
+      <div class="eyebrow eyebrow-light" style="justify-content:center">What Our Clients Say</div>
+      <h2 class="sh sh-white">5.0 Stars on Trustpilot — <em>Every Review Verified</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div style="background:rgba(255,255,255,0.04);padding:28px 26px;border-top:2px solid var(--rust)" class="reveal"><div style="color:#f5c518;font-size:14px;letter-spacing:2px;margin-bottom:12px">★★★★★</div><p style="font-size:14.5px;line-height:1.78;color:rgba(255,255,255,0.72);margin-bottom:18px;font-style:italic">&ldquo;From survey to handover, the process was completely transparent. The fixed price didn't budge — exactly what we needed. The new bedroom suite has transformed our home.&rdquo;</p><div style="font-size:11px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light)">Sarah T. &mdash; Islington</div></div>
+      <div style="background:rgba(255,255,255,0.04);padding:28px 26px;border-top:2px solid var(--rust)" class="reveal"><div style="color:#f5c518;font-size:14px;letter-spacing:2px;margin-bottom:12px">★★★★★</div><p style="font-size:14.5px;line-height:1.78;color:rgba(255,255,255,0.72);margin-bottom:18px;font-style:italic">&ldquo;We got three quotes. Prime Loft weren't the cheapest but they were the clearest — the project manager was on site every day and we always knew what was happening.&rdquo;</p><div style="font-size:11px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light)">James &amp; Claire R. &mdash; Clapham</div></div>
+      <div style="background:rgba(255,255,255,0.04);padding:28px 26px;border-top:2px solid var(--rust)" class="reveal"><div style="color:#f5c518;font-size:14px;letter-spacing:2px;margin-bottom:12px">★★★★★</div><p style="font-size:14.5px;line-height:1.78;color:rgba(255,255,255,0.72);margin-bottom:18px;font-style:italic">&ldquo;Turned our three-bedroom terrace into five bedrooms. The L-shaped dormer was done in eight weeks. Incredibly professional from start to finish.&rdquo;</p><div style="font-size:11px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust-light)">Mohammed A. &mdash; Walthamstow</div></div>
+    </div>
+    <div style="text-align:center;margin-top:32px" class="reveal">
+      <a href="/about/testimonials.html" class="btn-outline" style="color:rgba(255,255,255,0.7);border-color:rgba(255,255,255,0.2)" onmouseenter="this.style.background='var(--rust)';this.style.borderColor='var(--rust)';this.style.color='#fff'" onmouseleave="this.style.background='';this.style.borderColor='rgba(255,255,255,0.2)';this.style.color='rgba(255,255,255,0.7)'">Read All Reviews →</a>
+    </div>
+  </div>
+</section>
+
+<!-- COST GUIDE -->
+<section style="background:var(--parchment);padding:80px 48px">
+  <div style="max-width:1420px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;background:var(--ink)" class="reveal">
+      <div style="background:var(--warm-dark);padding:48px 40px">
+        <div class="eyebrow eyebrow-light">2025 Price Guide</div>
+        <h2 class="sh sh-white">How Much Does a <em>Loft Conversion Cost?</em></h2>
+        <p style="font-size:15px;color:rgba(255,255,255,0.58);line-height:1.76;margin-bottom:24px">We publish our prices honestly and openly. Here are our current ranges for London — all inclusive of architecture, planning, structural engineering and build.</p>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)"><span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">Velux / Roof Light</span><span style="font-size:13.5px;font-weight:700;color:var(--rust-light)">from £18,000</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)"><span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">Dormer Conversion</span><span style="font-size:13.5px;font-weight:700;color:var(--rust-light)">from £36,000</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)"><span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">L-Shaped Dormer</span><span style="font-size:13.5px;font-weight:700;color:var(--rust-light)">from £42,000</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)"><span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">Hip to Gable</span><span style="font-size:13.5px;font-weight:700;color:var(--rust-light)">from £44,000</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)"><span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">Mansard Conversion</span><span style="font-size:13.5px;font-weight:700;color:var(--rust-light)">from £52,000</span></div>
+        <div style="margin-top:24px"><a href="/pages/loft-conversion-cost.html" class="btn-rust">Full Cost Guide →</a></div>
+      </div>
+      <div style="background:var(--ink);padding:48px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+        <div class="eyebrow eyebrow-light" style="justify-content:center">No Estimates. No Guesswork.</div>
+        <h3 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,40px);font-weight:700;color:#fff;line-height:1.18;margin-bottom:16px">Get Your Exact <em style="font-style:italic;color:var(--rust-light)">Fixed Price</em> Today</h3>
+        <p style="font-size:14px;color:rgba(255,255,255,0.5);line-height:1.72;max-width:340px;margin-bottom:28px">The only way to get an accurate, fixed price is a free home survey. Our surveyor visits, assesses your property, and provides a fully itemised fixed-price quotation. No obligation.</p>
+        <a href="/pages/get-a-quote.html" class="btn-rust" style="font-size:11px;padding:18px 40px">Book Free Survey →</a>
+        <a href="tel:02081234567" style="margin-top:14px;font-size:12px;font-weight:600;color:rgba(255,255,255,0.4);text-decoration:none">or call 0208 123 4567</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="cta-band-inner">
+    <div class="eyebrow eyebrow-light" style="justify-content:center">Ready to Start?</div>
+    <h2 class="sh sh-white" style="text-align:center;max-width:700px;margin:0 auto 16px">Get Your Free Survey &amp; <em>Fixed-Price Quote</em> Today</h2>
+    <p style="font-size:16px;color:rgba(255,255,255,0.6);line-height:1.7;text-align:center">No obligation. No pressure. A clear, honest picture of what's possible in your home — and exactly what it will cost.</p>
+    <div class="cta-band-btns">
+      <a href="/pages/get-a-quote.html" class="btn-rust">Book a Free Survey &rarr;</a>
+      <a href="tel:02081234567" style="background:transparent;color:rgba(255,255,255,0.75);padding:16px 36px;font-size:10px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;text-decoration:none;border:2px solid rgba(255,255,255,0.25);display:inline-flex;align-items:center;gap:10px">&#9742; 0208 123 4567</a>
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/index.html" class="logo">
+          <div class="logo-mark" style="background:var(--rust)">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><path d="M4 16L16 4L28 16V28H20V20H12V28H4V16Z" fill="#FAF6EE"/></svg>
+          </div>
+          <div class="logo-wordmark">
+            <span class="prime" style="color:#fff">Prime Loft</span>
+            <span class="sub">Premium Loft Conversions</span>
+          </div>
+        </a>
+        <p>London's premium loft conversion specialists. Part of the Prime Construction Group. Transforming homes across London since 2009.</p>
+        <div class="footer-contact">
+          <a href="tel:02081234567">
+            <svg viewBox="0 0 24 24" width="13" height="13" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81"/></svg>
+            0208 123 4567
+          </a>
+          <a href="mailto:info@primeloft.co.uk">
+            <svg viewBox="0 0 24 24" width="13" height="13" stroke="var(--rust)" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@primeloft.co.uk
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Loft Conversion Types</h5>
+        <a href="/services/dormer-loft-conversion.html">Dormer Loft Conversion</a>
+        <a href="/services/mansard-loft-conversion.html">Mansard Loft Conversion</a>
+        <a href="/services/hip-to-gable.html">Hip to Gable</a>
+        <a href="/services/l-shaped-dormer.html">L-Shaped Dormer</a>
+        <a href="/services/velux-conversion.html">Velux / Roof Light</a>
+        <a href="/services/mansion-block.html">Mansion Block</a>
+        <a href="/services/trussed-roof.html">Trussed Roof</a>
+        <a href="/services/loft-conversion-ideas.html">Loft Conversion Ideas</a>
+        <a href="/services/kitchen-extensions.html">Kitchen Extensions</a>
+        <a href="/services/basement-conversions.html">Basement Conversions</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="/about/who-we-are.html">About Prime Loft</a>
+        <a href="/about/why-choose-us.html">Why Choose Us</a>
+        <a href="/about/design-build-process.html">Design &amp; Build Process</a>
+        <a href="/about/testimonials.html">Testimonials</a>
+        <a href="/pages/gallery.html">Gallery</a>
+        <a href="/about/careers.html">Work With Us</a>
+        <a href="/pages/contact.html">Contact Us</a>
+        <a href="/pages/loft-conversion-cost.html">How Much Does It Cost?</a>
+        <a href="/pages/get-a-quote.html">Free Quote</a>
+      </div>
+      <div class="footer-col">
+        <h5>London Areas</h5>
+        <a href="/areas/north-london.html">North London</a>
+        <a href="/areas/south-london.html">South London</a>
+        <a href="/areas/east-london.html">East London</a>
+        <a href="/areas/west-london.html">West London</a>
+        <a href="/areas/central-london.html">Central London</a>
+        <h5 style="margin-top:16px">Legal</h5>
+        <a href="/pages/privacy.html">Privacy Policy</a>
+        <a href="/pages/terms.html">Terms &amp; Conditions</a>
+        <a href="/pages/cookie-policy.html">Cookie Policy</a>
+        <a href="/about/warranty.html">Warranty &amp; Insurance</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Prime Loft Ltd. Part of Prime Construction Group. Company No. 12345678. Registered in England &amp; Wales.</span>
+      <div class="footer-social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Houzz</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="float-cta">
+  <a href="tel:02081234567" class="float-btn float-phone">
+    <svg viewBox="0 0 24 24" width="13" height="13" stroke="rgba(255,255,255,0.7)" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 012 1.22 2 2 0 014 0h3a2 2 0 012 1.72"/></svg>
+    Call Us
+  </a>
+  <a href="/pages/get-a-quote.html" class="float-btn float-quote">
+    <svg viewBox="0 0 24 24" width="13" height="13" stroke="#fff" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+    Get Free Quote
+  </a>
+</div>
+
+<script>
+window.addEventListener('scroll', function() {
+  var n = document.getElementById('main-nav');
+  if (n) { n.style.boxShadow = window.scrollY > 30 ? '0 4px 28px rgba(26,18,8,0.1)' : 'none'; }
+});
+
+var ro = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(function(el) { ro.observe(el); });
+
+var ham = document.getElementById('hamburger');
+var mob = document.getElementById('mobile-menu');
+if (ham && mob) {
+  ham.addEventListener('click', function() {
+    ham.classList.toggle('open');
+    mob.classList.toggle('open');
+  });
+}
+
+var slides = document.querySelectorAll('.hero-slide');
+var cur = 0;
+if (slides.length > 0) {
+  setInterval(function() {
+    slides[cur].classList.remove('active');
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('active');
+  }, 5000);
+}
+</script>
+</body>
+</html>
